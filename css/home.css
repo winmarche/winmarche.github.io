@@ -18,8 +18,8 @@ body
 	top: 50%;
 	height: 2%;
     margin-top: -12%;
-    width: 20%;
-    margin-left: -10%;
+    width: 80%;
+    margin-left: -40%;
     padding-bottom: 35%;
 }
 
@@ -41,17 +41,18 @@ a
 	color:green;
 	font-family: Consolas;
 	font-size: 120%;
-	margin-bottom: 15%;
+	margin-bottom: 14%;
 }
 
 nav
 {
 	font-size: 220%;
+	margin-top: -10%;
 }
 
 nav a
 {
-	padding: 0% 5%;
+	padding: 0% 1%;
 }
 
 nav a:hover
