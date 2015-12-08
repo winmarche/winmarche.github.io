@@ -15,7 +15,7 @@ html
 	background-color: #F0F0F0;
 	font-family: Open Sans;
 	text-align: center;
-	animation: fade 2s;
+	animation: fade 1s;
 }
 
 html, body
@@ -49,18 +49,17 @@ a
 	text-decoration: none;
 }
 
-#content p
+#content code
 {
 	color:green;
-	font-family: Consolas;
 	font-size: 120%;
-	margin-bottom: 14%;
+	margin-bottom: -14%;
 }
 
 nav
 {
 	font-size: 220%;
-	margin-top: -10%;
+	margin-top: 5%;
 }
 
 nav a
