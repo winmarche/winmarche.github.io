@@ -1,3 +1,15 @@
+@keyframes fade
+{
+	from
+	{
+		opacity: 0;
+	}
+	to
+	{
+		opacity: 1;
+	}
+}
+
 html
 {
 	background-color: #F0F0F0;
@@ -33,6 +45,7 @@ header, #content
 	z-index: -100;
 	padding: 1% 0%;
 	margin: 0% 18%;
+	animation: fade 1s;
 }
 
 h1, h2, h3
@@ -40,11 +53,13 @@ h1, h2, h3
 	font-weight: lighter;
 }
 
-h1
+
+#logo
 {
-	font-size: 300%;
-	margin-bottom: 0;
+	margin-top: 3%;
 	margin-left: 5%;
+	width: 25em;
+	max-width: 100%;
 }
 
 h2
@@ -72,21 +87,28 @@ h4
 	margin: 1% 3.5%;
 }
 
-#list
-{
-
-}
-
 #list li
 {
 	font-size: 200%;
+	padding: 1% 1%;
+	transition: 0.5s;
+}
+
+#list li:hover
+{
+	background-color: #E6E6E6;
+}
+
+#list img
+{
+	margin: 0;
+	width: 8em;
+	max-width: 100%;
 }
 
 #list p
 {
-	padding: 0% 5%;
-	font-size: 60%;
-	display: inline;	
+	font-size: 50%;	
 }
 
 #navigation

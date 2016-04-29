@@ -1,16 +1,23 @@
 <!DOCTYPE html>
 <html>
+	<script>
+		if(window.location.protocol != "https:")
+		{
+			window.location.protocol = "https";
+		}
+	</script>
+	
 	<head>
 		<meta charset="utf-8">
 		<title>winston mark cheng - projects</title>
-		<meta name="viewport" content="width=device-width; initial-scale=1.0; maximum-scale=1.0;">
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 		<link rel="stylesheet" type="text/css" href="css/content.css">
-		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<header>
-			<h1><a href="index.html">winston<span style='color:#00CCFF'>mark</span><span style='color:gray'>cheng</span></a></h1>
+			<a href="index.html"><img id="logo" src="images/logo.png" alt="winstonmarkcheng"/></a>
 		</header>
 
 		<nav>
@@ -21,7 +28,7 @@
 			</ul>
 		</nav>
 
-		<div id='content'>
+		<div id='content'>	
 			<h2>projects</h2>
 			
 			<div class='object'>
@@ -29,14 +36,15 @@
 
 				<ul id='list'>
 					<li>
-						<a href="https://winmarche.github.io/" style='font-size:50%'>winston<span style='color:#00CCFF'>mark</span><span style='color:gray'>cheng</span></a> | <p>My personal website</p>
+						<a href="index.html"><img src="images/logo.png" alt="winstonmarkcheng"/></a>
+						<p>My personal website</p>
 					</li>
 				</ul>
 			</div>
 		</div>
 
 		<footer>
-			<p>&copy;2015 winston mark cheng</p>
+			<p>&copy;<script>document.write(new Date().getFullYear())</script> winston mark cheng</p>
 		</footer>
 	</body>
 </html>
