@@ -12,7 +12,7 @@
 
 html
 {
-	background-color: #F0F0F0;
+	background-color: black;
 	font-family: Open Sans;
 	text-align: center;
 	animation: fade 1s;
@@ -30,15 +30,15 @@ body
     margin: 17% 0%;
 }
 
-#logo
+h1
 {
-	width: 35em;
-	max-width: 100%;
+	font-size: 4em;
+	margin: auto;
 }
 
 a
 {
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -53,6 +53,7 @@ nav
 {
 	font-size: 220%;
 	margin-top: 5%;
+	transition: 0.5s;
 }
 
 nav a
@@ -63,14 +64,34 @@ nav a
 
 nav a:hover
 {
-	color: #00CCFF;
-	text-shadow: 0em 0.1em 0.1em #00CCFF;
+	color: lightgrey;
 }
 
 nav a:active
 {
-	color: #1E90FF;
-	text-shadow: 0em 0.1em 0.1em #1E90FF;
+	color: grey;
+}
+
+#logo
+{
+	transition: 0.5s;
+
+}
+
+#logo:hover
+{
+	filter: brightness(80%);
+	
+}
+
+#logo:active
+{
+	filter: brightness(50%);
+}
+
+#email
+{
+	font-size: 125%;
 }
 
 footer
@@ -78,4 +99,5 @@ footer
 	position: absolute;
 	bottom: 0;
 	width: 100%;
+	color: white;
 }
